@@ -10,7 +10,7 @@ from imageai.Detection import ObjectDetection
 
 apihelper.proxy = {'https':'http://96.96.10.6:3128'}
 
-bot = telebot.TeleBot('1094138904:AAFJwBSqU6BxISMkHaI93QkzzzyfWlPWQr4')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
